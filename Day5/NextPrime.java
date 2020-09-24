@@ -10,8 +10,7 @@ public class NextPrime
 		int num = sc.nextInt();
 		num=num+1;		
 		NextPrime primeObj = new NextPrime();
-		primeObj.nextPrime(num);
-		
+		primeObj.nextPrime(num);		
 		sc.close();		
 	}
 	public void nextPrime(int n)
@@ -26,13 +25,11 @@ public class NextPrime
 		}
 		if(b!=false)
 		{
-			System.out.print("Next Prime: "+n);
-			
+			System.out.print("Next Prime: "+n);			
 		}	
 		else
 		{
 			nextPrime(n+1);
 		}
 	}
-
 }
